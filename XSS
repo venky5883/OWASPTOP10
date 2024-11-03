@@ -1,0 +1,6 @@
+Cross Site Scripting vulnerability allows an attacker to interfere with the interactions that users have with the vulnerable web application. 
+It allows an attacker to circumvent the same origin policy which is designed to segregate different websites from each other.
+
+Reflected XSS, when the malicious script comes from the current HTTP request.
+Stored XSS, when the malicious script comes from the application server/database.
+DOM XSS, when the malicious script is present in the client side rather than from server side code.
